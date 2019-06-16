@@ -2,13 +2,12 @@
 def badge_maker(name)
  "Hello, my name is #{name}."
 end
+
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator(array)
-  counter = 0
-array.each do
-  puts "Hello, my name is #{array[counter]}"
-  counter += 1
-  break if
-  array.length == counter
-end
+i = 0
+while i < array.length
+  name = array[i]
+  puts "Hello, my name is #{name}."
+  i += 1
 end
