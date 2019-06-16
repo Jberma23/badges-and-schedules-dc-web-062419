@@ -8,7 +8,5 @@ def batch_badge_creator(array)
 array.each do
   "Hello, my name is #{array}"
   counter += 1
-break if
-counter counter == array.length
 end
 end
