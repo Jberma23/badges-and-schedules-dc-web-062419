@@ -12,4 +12,3 @@ while i < array.length
   i += 1
 end
 end
-batch_badge_creator(attendees)
