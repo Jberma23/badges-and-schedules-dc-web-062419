@@ -11,3 +11,4 @@ while i < array.length
   puts "Hello, my name is #{name}."
   i += 1
 end
+end
