@@ -12,3 +12,4 @@ array.each do
   array.length == counter
 end
 end
+batch_badge_creator(attendees)
