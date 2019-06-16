@@ -6,7 +6,7 @@ end
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator(array)
 i = 0
-while i < array.length
+while i <= array.length
   name = array[i]
   puts "Hello, my name is #{name}."
   i += 1
