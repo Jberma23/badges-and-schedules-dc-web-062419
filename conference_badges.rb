@@ -8,7 +8,7 @@ def batch_badge_creator(array)
 i = 0
 while i <= array.length
   name = array[i]
-  return "Hello, my name is #{name}."
+   "Hello, my name is #{name}."
   i += 1
 end
 end
